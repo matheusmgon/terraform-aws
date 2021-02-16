@@ -68,24 +68,3 @@ resource "aws_instance" "instancia" {
   #Aplicando template do Nginx
   user_data = data.template_file.nginx.rendered
 }
-
-
-
-
-
-
-
-
-
-# ingress = [{
-#   # cidr_blocks = [data.aws_vpc.vpc-teste.cidr_block]
-#   # ipv6_cidr_blocks = [data.aws_vpc.vpc-teste.ipv6_cidr_block]
-#   # prefix_list_ids = [ "pl-68a54001" ]
-#   # security_groups = ["sg-9ca1dfc2"]
-#   # self = false
-#   cidr_blocks = var.libera_ip
-#   description = "Liberação de Porta SSH para IP específico"
-#   from_port = 22
-#   protocol = "tcp"
-#   to_port = 22
-# }]
