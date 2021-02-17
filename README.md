@@ -1,3 +1,6 @@
+![Dynamic](https://img.shields.io/badge/Terraform-v0.14.8-green?style=flat-square&logo=terraform)
+![Dynamic](https://img.shields.io/badge/docker-20.10.2-green?style=flat-square&logo=docker)
+
 # Terraform + AWS
 
 ### Baixar Terraform
