@@ -7,7 +7,7 @@
 > Existe um arquivo "Makefile" que auxilia na utilização do Terraform.
 > Para ver as opções, digite:
 ```sh
-make halp
+make help
 ```
 > Ou apenas:
 ```sh
